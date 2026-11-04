@@ -1,5 +1,18 @@
 # PyMC Examples
 
+Examples of Bayesian inference and Gaussian Process modelling with PyMC. Use Python 3.11 or later and uv, following [pyproject.toml](pyproject.toml):
+
+```bash
+git clone https://github.com/bet-lab/pymc-examples.git
+cd pymc-examples
+uv sync
+uv run jupyter notebook
+```
+
+Start with [the beginner guide](BEGINNER_GUIDE.md), then open [the toy-model notebook](examples/pymc-gp-toy_model.ipynb). The detailed Korean setup and learning guide is preserved below.
+
+## Korean reference guide
+
 PyMC를 활용한 Bayesian 추론과 Gaussian Process 모델링 예제 저장소다.
 
 ## 👋 처음 오셨나요?
@@ -8,19 +21,19 @@ PyMC를 활용한 Bayesian 추론과 Gaussian Process 모델링 예제 저장소
 
 ## 📋 목차
 
-- [환경 설치](#환경-설치)
-- [프로젝트 구조](#프로젝트-구조)
-- [예제 소개](#예제-소개)
-- [기술적 배경](#기술적-배경)
-- [사용법](#사용법)
-- [주요 개념 설명](#주요-개념-설명)
-- [의존성](#의존성)
+- [환경 설치](#-환경-설치)
+- [프로젝트 구조](#-프로젝트-구조)
+- [예제 소개](#-예제-소개)
+- [기술적 배경](#-기술적-배경)
+- [사용법](#-사용법)
+- [주요 개념 설명](#-주요-개념-설명)
+- [의존성](#-의존성)
 
 ## 🚀 환경 설치
 
 ### 1. 저장소 클론
 ```bash
-git clone <repository-url>
+git clone https://github.com/bet-lab/pymc-examples.git
 cd pymc-examples
 ```
 
